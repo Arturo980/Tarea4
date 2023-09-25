@@ -1,0 +1,268 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #575656;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.carousel-container {
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.carousel-item img {
+    max-width: 100%; 
+    height: 350px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.carousel-indicators {
+    text-align: center;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 1;
+    overflow: auto;
+}
+
+.modal-content {
+    margin: 10% auto;
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.modal-image {
+    width: 100%;
+    height: auto;
+}
+
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.about-me {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-me-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.interest {
+    background-color: white; 
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    padding: 20px; 
+    flex: 1; 
+    text-align: center; 
+}
+
+.about-me p {
+    text-align: justify;
+}
+
+.interest a {
+    text-decoration: none; 
+    color: #007BFF; 
+}
+
+.interest a:hover {
+    text-decoration: underline; 
+}
+
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #333; 
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff; 
+    color: #333; 
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px; 
+}
+
+.hidden {
+    display: none;
+}
+
+
+.calculations-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 100vh; 
+}
+
+.calculations {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.age-calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: gray;
+    height: 100vh;
+    padding: 20px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.age-calculator-form {
+    background-color: white;
+    padding: 10px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.age-difference p {
+    margin-top: 0px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* CSS para Pasatiempo 1 */
+.deporte p {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #bdbcbc;
+    border-radius: 10px;
+    margin: 0; 
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 800px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+
+/* CSS para Pasatiempo 2 */
+.Videojuegos p {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #bdbcbc;
+    border-radius: 10px;
+    margin: 0; 
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 800px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/* CSS para Pasatiempo 3 */
+.Peliculas p {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #bdbcbc;
+    border-radius: 10px;
+    margin: 0; 
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 800px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        font-size: 24px; 
+    }
+
+    .calculations-container {
+        padding: 20px; 
+    }
+    
+    .calculations {
+        font-size: 18px; 
+    }
+}
